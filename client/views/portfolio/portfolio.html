@@ -1,144 +1,149 @@
 <template name="portfolio">
   <section id="portfolio" class="pb-0">
-    <div class="title center">
-      <h4 class="upper">These are our works.</h4>
-      <h2>Our Portfolio<span class="red-dot"></span></h2>
-      <hr>
-    </div>
-    <div class="section-content mt-50 pb-0">
-      <ul id="filters" class="no-fix">
-        <li data-filter="*" class="active">All</li>
-        <li data-filter=".web"><i class="icon-global"></i> Web Applications</li>
-        <li data-filter=".mobile"><i class="icon-mobile"></i> Mobile</li>
-        <li data-filter=".desktop"><i class="icon-desktop"></i> Desktop</li>
-      </ul>
-      <!-- end of portfolio filters-->
-      <div id="works" class="three-col wide">
-        <div class="work-item mobile">
-          <div class="work-detail">
-            <a href="#">
-              <img src="/images/portfolio/shact.jpg" alt="">
-              <div class="work-info">
-                <div class="centrize">
-                  <div class="v-center">
-                    <h3>Shact</h3>
-                    <p>iOS, Android</p>
-                  </div>
-                </div>
-              </div>
-            </a>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="title m-0 txt-xs-center txt-sm-center">
+            <h2 class="upper">Portfólio<span class="red-dot"></span></h2>
+            <hr>
           </div>
         </div>
-        <div class="work-item web">
-          <div class="work-detail">
-            <a href="#">
-              <img src="images/portfolio/sigalivre.jpg" alt="">
-              <div class="work-info">
-                <div class="centrize">
-                  <div class="v-center">
-                    <h3>SigaLivre</h3>
-                    <p>Web Application</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="work-item web desktop">
-          <div class="work-detail">
-            <a href="/portfolio/ehs">
-              <img src="/images/portfolio/ehs.jpg" alt="">
-              <div class="work-info">
-                <div class="centrize">
-                  <div class="v-center">
-                    <h3>EHS PMS</h3>
-                    <p>Web Application, Windows</p>
-                  </div>
-                </div>
-              </div>
-            </a>
-          </div>
-        </div>
-<!--         <div class="work-item web mobile">
-  <div class="work-detail">
-    <a href="#">
-      <img src="/images/portfolio/safed.jpg" alt="">
-      <div class="work-info">
-        <div class="centrize">
-          <div class="v-center">
-            <h3>SafeD Tracking System</h3>
-            <p>Web Application, Mobile</p>
-          </div>
+        <div class="col-md-6">
+          <ul id="filters" class="no-fix mt-25">
+            <li data-filter="*" class="active">Todos</li>
+            <li data-filter=".tipo-a">Tipo A</li>
+            <li data-filter=".tipo-b">Tipo B</li>
+            <li data-filter=".tipo-c">Tipo C</li>
+          </ul>
+          <!-- end of portfolio filters-->
         </div>
       </div>
-    </a>
-  </div>
-</div> -->
-        <div class="work-item mobile">
+      <!-- end of row-->
+    </div>
+    <div class="section-content pb-0">
+      <div id="works" class="four-col wide mt-50" style="position: relative; height: 1246px;">
+        <div class="work-item tipo-a video" style="position: absolute; left: 0px; top: 0px;">
           <div class="work-detail">
-            <a href="#">
-              <img src="/images/portfolio/lion-tax.jpg" alt="">
+            <a href="portfolio-single-1.html">
+              <img src="images/portfolio/placa1.jpg" alt="">
               <div class="work-info">
                 <div class="centrize">
                   <div class="v-center">
-                    <h3>Lion Tax Calendar</h3>
-                    <p>Mobile</p>
+                    <h3>Neleman Cava</h3>
+                    <p>Fabricação de caixas fortes de alta segurança, desenvolvendo vários dispositivos de segurança para cofres bancários na linha de auto-atendimento.</p>
                   </div>
                 </div>
               </div>
             </a>
           </div>
         </div>
-        <div class="work-item web">
+        <div class="work-item tipo-b tipo-c" style="position: absolute; left: 623px; top: 0px;">
           <div class="work-detail">
-            <a href="#">
-              <img src="/images/portfolio/techdb.jpg" alt="">
+            <a href="portfolio-single-1.html">
+              <img src="images/portfolio/placa2.jpg" alt="">
               <div class="work-info">
                 <div class="centrize">
                   <div class="v-center">
-                    <h3>TechDB</h3>
-                    <p>Web Application</p>
+                    <h3>Sweet Lane</h3>
+                    <p>Desenvolvimento dos Terminais de vídeo da TDA e ADD.</p>
                   </div>
                 </div>
               </div>
             </a>
           </div>
         </div>
-
-        <div class="work-item mobile">
+        <div class="work-item tipo-c tipo-a" style="position: absolute; left: 1246px; top: 0px;">
           <div class="work-detail">
-            <a href="/portfolio/praxi-level">
-              <img src="/images/portfolio/praxi-level.jpg" alt="">
+            <a href="portfolio-single-1.html">
+              <img src="images/portfolio/placa3.jpg" alt="">
               <div class="work-info">
                 <div class="centrize">
                   <div class="v-center">
-                    <h3>Praxi-Level</h3>
-                    <p>Mobile</p>
+                    <h3>Jeff Burger</h3>
+                    <p>Projeto de fontes chaveadas especiais para Petrobrás e COPESP (IPERO) e fontes chaveadas de urnas da IBM.</p>
                   </div>
                 </div>
               </div>
             </a>
           </div>
         </div>
-
-       <!--  <div class="work-item mobile">
-         <div class="work-detail">
-           <a href="#">
-             <img src="images/portfolio/1.jpg" alt="">
-             <div class="work-info">
-               <div class="centrize">
-                 <div class="v-center">
-                   <h3>Ballast Water Monitoring</h3>
-                   <p>Web Application</p>
-                 </div>
-               </div>
-             </div>
-           </a>
-         </div>
-       </div> -->
+        <div class="work-item video tipo-b" style="position: absolute; left: 1869px; top: 0px;">
+          <div class="work-detail">
+            <a href="portfolio-single-1.html">
+              <img src="images/portfolio/placa2.jpg" alt="">
+              <div class="work-info">
+                <div class="centrize">
+                  <div class="v-center">
+                    <h3>Juice Meds</h3>
+                    <p>Sistema Operacional embarcado para computadores de rede em Linux, Windows CE, Windows XPe ou dedicados.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="work-item tipo-a tipo-b" style="position: absolute; left: 0px; top: 623px;">
+          <div class="work-detail">
+            <a href="portfolio-single-1.html">
+              <img src="images/portfolio/placa1.jpg" alt="">
+              <div class="work-info">
+                <div class="centrize">
+                  <div class="v-center">
+                    <h3>Prisma</h3>
+                    <p>Máquinas de auto-atendimento bancário ou consultas (ATM).</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="work-item tipo-c tipo-b" style="position: absolute; left: 623px; top: 623px;">
+          <div class="work-detail">
+            <a href="portfolio-single-1.html">
+              <img src="images/portfolio/placa3.jpg" alt="">
+              <div class="work-info">
+                <div class="centrize">
+                  <div class="v-center">
+                    <h3>Delirio Tropical</h3>
+                    <p>Hardware e Software necessário para impressoras fiscais atendendo a necessidade de Memória de Fita Fiscal e Fita Detalhe.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="work-item tipo-c tipo-a" style="position: absolute; left: 1246px; top: 623px;">
+          <div class="work-detail">
+            <a href="portfolio-single-1.html">
+              <img src="images/portfolio/placa2.jpg" alt="">
+              <div class="work-info">
+                <div class="centrize">
+                  <div class="v-center">
+                    <h3>Amendoas</h3>
+                    <p>Terminais portáteis de autenticação de cheques via modem celular.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="work-item tipo-b video" style="position: absolute; left: 1869px; top: 623px;">
+          <div class="work-detail">
+            <a href="portfolio-single-1.html">
+              <img src="images/portfolio/placa1.jpg" alt="">
+              <div class="work-info">
+                <div class="centrize">
+                  <div class="v-center">
+                    <h3>Hanina</h3>
+                    <p>Análise dos tempos dos movimentos para linhas de produção.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
       <!-- end of portfolio grid-->
     </div>
-    <!-- end of section content-->
   </section>
 </template>

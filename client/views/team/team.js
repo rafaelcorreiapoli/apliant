@@ -1,7 +1,7 @@
 Template.team.onRendered(function() {
   $('.owl-carousel').each(function(index, el) {
     var dataOptions = $(this).data('options') || {};
-    dataOptions.items = 2;
+    dataOptions.items = 3;
     var options = {
       items: dataOptions.items || 4,
       loop: dataOptions.loop || true,
